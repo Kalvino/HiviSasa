@@ -67,6 +67,7 @@ header {
 	   .btn{
 	      background-color: #0099CC;
 	      color: #fff;
+	      border-radius: 0;
 	    } 
 	}
   }	  
@@ -241,14 +242,13 @@ header {
 }
 .w1 {
     float: right;
-    margin-top: 3px;
+    margin-top: 0;
     width: auto;
     background: #000;
-    padding: 10px;
+    padding: 20px;
+    height: 46px;
 }
-.extra-wrap {
-    overflow: hidden;
-}
+
 .logo{
 	height: 35px;
     margin: 11px;
@@ -299,4 +299,7 @@ span.dropcap {
 }
 .m-leaderboard{
 	background-color: #f5f5f5 !important; 
+}
+.title-div{
+	margin-top:50px;
 }
