@@ -1,0 +1,61 @@
+  <header class="navbar row navbar-fixed-top" role="navigation">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div id="logo">
+       <a class="navbar-brand" href="#"><%= image_tag "logo.png", class: "logo" %></a>
+    </div>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="/static_pages/news">NEWS</a></li>
+      <li><a href="/static_pages/sports">SPORTS</a></li>
+      <li><a href="/static_pages/business">BUSINESS</a></li>
+      <li><a href="/static_pages/politics">POLITICS</a></li>
+      <li><a href="/static_pages/entertainment">ENTERTAINMENT</a></li>
+    </ul>
+    <div class="extra-wrap w1">
+        <ul class="socialList">
+			<li>
+				<a href="#">
+				   <%= image_tag("fbicon.png") %>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				   <%= image_tag("gplusicon.png") %>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				  <%= image_tag("twicon.png") %>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				   <%= image_tag("iconnn.png") %>
+				</a>
+			</li>
+		</ul>
+    </div>
+    <div class="col-md-3">
+        <form class="navbar-form" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="What are you looking for?" name="q">
+            <div class="nav-search input-group-btn">
+                <button class="btn" type="submit">SEARCH</button>
+            </div>
+        </div>
+        </form>
+    </div>
+		
+  </div><!-- /.navbar-collapse -->
+ </header>
