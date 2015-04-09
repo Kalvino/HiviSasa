@@ -245,7 +245,7 @@ header {
     margin-top: 0;
     width: auto;
     background: #000;
-    padding: 20px;
+    padding: 10px;
     height: 46px;
 }
 
@@ -302,4 +302,14 @@ span.dropcap {
 }
 .title-div{
 	margin-top:50px;
+}
+.progress{
+	border-radius: 0 !important;
+	height: 15px !important;
+	.progress-bar{
+	   text-align: left;
+	   padding-left: 10px;
+	   font-size: 10px;
+	   background-color: #28B1E9;
+	}
 }
